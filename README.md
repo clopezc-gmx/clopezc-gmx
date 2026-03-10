@@ -1,16 +1,22 @@
-## Hi there 👋
+# Performance-Focused C++ for Compute-Intensive Workloads
+
+I develop and modernize performance-critical software for scientific and
+technical workloads, primarily in modern C++.  This page collects small
+projects on memory behavior, parallel execution (C++, OpenMP, MPI), and
+measurement methodology on modern CPUs.
 
 <!--
-**clopezc-gmx/clopezc-gmx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **memory-layout-and-performance**  
+C++ microbenchmarks exploring cache effects, traversal patterns, and AoS vs SoA
+trade-offs, with reproducible measurements.
+[https://github.com/clopezc-gmx/memory-layout-and-performance](https://github.com/clopezc-gmx/memory-layout-and-performance)
 
-Here are some ideas to get you started:
+**cfd-postproc-engine**
+Structured-grid post-processing pipeline with streaming kernels, reductions,
+and OpenMP scaling experiments.
+[https://github.com/clopezc-gmx/cfd-postproc-engine](cfd-postproc-engine)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+**particle-kernels**
+Particle-oriented kernels focused on spatial locality, neighbor search (cell
+lists), and multicore behavior. [https://github.com/clopezc-gmx/particle-kernels](particle-kernels)
 -->
